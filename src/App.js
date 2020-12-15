@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-
+const { NODE_ENV } = process.env;
 function App() {
+  console.log('NODE_ENV', NODE_ENV);
   return (
     <div className="App">
       <header className="App-header">
